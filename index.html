@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Blog - Landing Page</title>
+  <link rel="stylesheet" href="assets/form.css">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Kalen's Personal Blog</h1>
+  </header>
+  <main>
+    <form id="blogForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="title">Blog Title:</label>
+      <input type="text" id="title" name="title" required>
+      <label for="content">Blog Content:</label>
+      <textarea id="content" name="content" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="errorMsg" style="display: none;">Please complete all fields.</p>
+  </main>
+  <footer>
+    <a href="#">Developer's Portfolio</a>
+  </footer>
+  <script src="assets/js/form.js"></script>
+</body>
+</html>
